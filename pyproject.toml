@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "explore-sqlalchemy-alembic-fastapi"
+version = "1.0"
+description = "Explore the fastapi, sqlalchemy and alembic in deepth"
+authors = ["rhshurov64"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.5"
+sqlalchemy = "^2.0.36"
+alembic = "^1.14.0"
+uvicorn = "^0.32.1"
+psycopg2-binary = "^2.9.10"
+python-dotenv = "^1.0.1"
+sqlalchemy-utils = "^0.41.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
